@@ -106,6 +106,7 @@ input:focus {
 .textos-links {
   color: var(--bg-button-color);
   margin-left: 3.5rem;
+  display: inline;
 }
 
 .form-input p {
@@ -148,8 +149,25 @@ button {
   min-height: 100%;
 }
 
-
-
 button:hover img {
   transform: rotate(360deg);
-} 
+}
+
+.texto-roxo {
+  margin-top: 14rem;
+  cursor: pointer;
+}
+
+.img-seta {
+  position: relative;
+  top: .7rem;
+  cursor: pointer;
+}
+
+.texto-roxo:hover .img-seta {
+  transform: translateX(3px);
+}
+
+.texto-roxo:hover {
+  opacity: 0.9;
+}
