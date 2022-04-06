@@ -97,7 +97,7 @@ input:focus {
 }
 
 .img-header {
-  width: 38rem;
+  max-width: 38rem;
   margin-left: 3rem;
   margin-top: 5rem;
   margin-bottom: 9rem;
@@ -145,8 +145,9 @@ button {
 
 
 .img-aside {
-  width: auto;
   min-height: 100%;
+  object-fit: cover;
+  object-position: 100% 100%;
 }
 
 button:hover img {
@@ -171,4 +172,78 @@ button:hover img {
 
 .texto-roxo:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 1200px) {
+  input {
+    max-width: 60rem;
+  }
+  .textos {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  input {
+    width: 50rem;
+  }
+  .textos {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  input {
+    display: flex;
+    min-width: 90%;
+    width: 30rem;
+    
+  }
+
+  .textos {
+    margin-right: 2rem;
+  }
+
+  .content {
+    padding: 5rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
+
+  .container-img {
+    display: none;
+  }
+
+  .texto-roxo {
+    margin-top: 14rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .img-header {
+    max-width: 20rem;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .container-input {
+    position: static;
+  }
+
+  .form-input {
+    align-self: center;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
