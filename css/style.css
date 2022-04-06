@@ -156,11 +156,12 @@ button:hover img {
 .texto-roxo {
   margin-top: 14rem;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .img-seta {
   position: relative;
-  top: .7rem;
+  top: .8rem;
   cursor: pointer;
 }
 
