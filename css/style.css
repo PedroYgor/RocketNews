@@ -245,7 +245,7 @@ button:hover img {
   }
 
   .form-input {
-    align-self: center;
+    align-self: flex-start;
     position: static;
     display: flex;
     flex-direction: column;
