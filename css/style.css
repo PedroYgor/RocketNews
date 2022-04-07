@@ -143,6 +143,11 @@ button {
   padding: 4px;
 }
 
+.container-img {
+  background-image: url(../assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 .img-aside {
   min-height: 100%;
