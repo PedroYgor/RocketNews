@@ -152,6 +152,8 @@ button {
   background-image: url(../assets/read_news.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-mobile {
