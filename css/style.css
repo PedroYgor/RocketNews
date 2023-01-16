@@ -64,8 +64,7 @@ input:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
-  min-width: 100vw;
-
+  min-width: 100%;
 }
 
 .textos {
@@ -87,7 +86,7 @@ input:focus {
   font-family: 'Spartan', sans-serif;
   font-weight: bold;
   color: var(--text-color);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   /*  letter-spacing: 1.2px; */
   margin-bottom: 1rem;
 }
@@ -95,7 +94,7 @@ input:focus {
 .textos-news-three {
   font-family: 'Spartan', sans-serif;
   color: var(--text-color);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
   /* letter-spacing: 1.2px; */
 }
@@ -124,7 +123,7 @@ input:focus {
 }
 
 input {
-  width: 60vw;
+  width: 90%;
   padding: 1.2rem;
   border: 2px solid white;
   border-left: 2px solid var(--title-color);
@@ -210,7 +209,7 @@ button:hover img {
   }
 
   input {
-    width: 50rem;
+    width: 100%;
   }
 
   .textos {
@@ -221,7 +220,7 @@ button:hover img {
 @media (max-width: 768px) {
   input {
     display: flex;
-    width: 30rem;
+    width: 100%;
 
   }
 
